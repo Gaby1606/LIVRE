@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    grid-gap: 1vw;
+}
+
+.container-flex{
+    display: flex;
+    text-align: column;
+}
+
+section{
+    text-align: column;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid #733B1A;
+    width: 100%;
+    height: 15vh;
+    background-color: #733B1A;
+}
+
+header #icon-menu{
+    width: 20vw;
+}
+
+header #icon-menu img{
+    width: 8vw;
+    height: 15vh;
+}
+
+header #ident{
+    width: 100vw;
+    font-size:18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family:serif;
+}
+
+nav{
+    position: absolute;
+    margin-top: 12vh;
+    width: 100vw;
+    background: #D1965E;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 3vh 0 1vh 2vw;
+    border-bottom: 1px solid #733B1A;
+    height: 30%;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #260401;
+}
+main{
+    background-color: #CC8438;
+}
+
+h1{
+    line-height: 40px;
+    color: #260401;
+    margin-left: 20px;
+}
+
+#sobre div div{
+    float:left;
+    width:50vw;
+    align-self: flex-end;
+}
+
+#sobre div div img{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sobre{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#sobre div p{
+   width: 50w;
+   height: 90px;
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+   text-align: justify;
+   color: #fff;
+   font-size: 20px;
+}
+#capa{
+    display: flex ;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-top: 1vh; 
+}
+
+hr{
+    margin-top: 2vw;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#elenco div img{
+    width: 16vw;
+    height:40vh;
+    margin-left: 40vw;
+}
+
+#mae{
+    height: 5vh;
+    margin-left: 32%;
+    font-size: 20px;
+}
+
+#elenco div p{
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 1%;
+    text-align: justify;
+    color: #fff;
+}
+
+#elenco1 div img{
+    width: 16vw;
+    height:40vh;
+    margin-left: 40vw;
+}
+
+#filha{
+    height: 5vh;
+    margin-left: 37%;
+    font-size: 20px;
+    color: #fff;
+  
+}
+
+#elenco2 div img{
+    width: 16vw;
+    height: 40vh;
+    margin-left: 40vw;
+}
+#pai{
+    height: 5vh;
+    margin-left: 25%;
+    font-size:  20px;
+    color: #fff;
+
+}
+
+#elenco3 div img{
+    width: 16vw;
+    height: 40vh;
+    margin-left: 40vw;
+}
+
+#doutor{
+    height: 5vh;
+    margin-left: 23%;
+    font-size: 20px;
+    color: #fff;
+}
+
+#elenco4 div img{
+    width: 16vw;
+    height: 40vh;
+    margin-left: 40vw;
+}
+
+#garçonete{
+    height: 5vh;
+    margin-left: 15%;
+    font-size: 20px;
+    color: #fff;
+}
+
+#dados{
+    width: 50w;
+   height: 90px;
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+   text-align: justify;
+   color: #fff;
+   font-size: 20px;
+   background-color: #CC8438;
+}
+
+@media only screen and (max-width: 858px){
+    header #ident{
+        width: 100vw;
+        font-size:35px;
+        text-align: center;
+        padding-top: 20px;
+        font-family:serif;
+    }
+    header #icon-menu img{
+        width: 13vw;
+        height: 15vh;
+    }
+    #sobre div div img{
+        width: 70vw;
+        height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130px;
+    }
+    #sobre div p{
+        width: 50w;
+        height: 90px;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-right: 20px;
+        text-align: justify;
+        color: #fff;
+        font-size: 15px;
+     }
+    #elenco div img{
+        width: 25vw;
+        height:35vh;
+        margin-left: 40vw;
+    }
+    #mae{
+        height: 5vh;
+        margin-left: 5%;
+        font-size: 15px;
+
+    }    
+    #elenco1 div img{
+        width: 25vw;
+        height:35vh;
+        margin-left: 40vw;
+        margin-top: 15px;
+    }
+    #filha{
+        height: 5vh;
+        margin-left: 18%;
+        font-size: 15px;
+    } 
+    #elenco2 div img{
+        width: 25vw;
+        height: 35vh;
+        margin-left: 40vw;
+        margin-top: 15px;
+    }
+    #pai{
+        height: 5vh;
+        margin-left: 2%;
+        font-size:  15px;
+        text-align: center;
+    }
+    #elenco3 div img{
+        width: 25vw;
+        height: 35vh;
+        margin-left: 40vw;
+        margin-top: 38px;
+    }
+    
+    #doutor{
+        height: 5vh;
+        margin-left: 2%;
+        font-size: 15px;
+        text-align: center;
+    }
+    #elenco4 div img{
+        width: 25vw;
+        height: 35vh;
+        margin-left: 40vw;
+        margin-top: 15px;
+    }
+    
+    #garçonete{
+        height: 5vh;
+        margin-left: 2%;
+        font-size: 15px;
+        text-align: center;
+    }
+    #dados{
+        width: 30w;
+       height: 80px;
+       margin-left: 20px;
+       margin-top: 1px;
+       margin-right: 20px;
+       text-align: justify;
+       
+       font-size: 15px;
+       background-color: #CC8438;
+    }
+    h1{
+        line-height: 40px;
+        color: #260401;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+}
+ 
+
+
